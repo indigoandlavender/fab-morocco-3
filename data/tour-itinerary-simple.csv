@@ -1,0 +1,101 @@
+tour_id,day_number,route_id,day_title,override_description
+FAB-2DAY-ZAG,1,MAR-ZAG-120,Marrakech to Zagora,
+FAB-2DAY-ZAG,2,ZAG-MAR-130,Zagora to Marrakech,
+FAB-3DAY-SAH,1,MAR-DAD-003-Morocco-Dades-1.png,Marrakech to Dades Valley,
+FAB-3DAY-SAH,2,DAD-MER-116,Dades to Merzouga,
+FAB-3DAY-SAH,3,MER-MAR-007-Morocco-Marrakech-1.png,Merzouga to Marrakech,
+FAB-3DAY-FES,1,MAR-DAD-003-Morocco-Dades-1.png,Marrakech to Dades Valley,
+FAB-3DAY-FES,2,DAD-MER-116,Dades to Merzouga,
+FAB-3DAY-FES,3,MER-FES-122,Merzouga to Fes,
+FAB-4DAY-SAH,1,MAR-DAD-003-Morocco-Dades-1.png,Marrakech to Dades Valley,
+FAB-4DAY-SAH,2,DAD-MER-116,Dades to Merzouga,
+FAB-4DAY-SAH,3,STAY_MERZOUGA,Merzouga,Full day exploring the desert. Options include 4x4 excursion to nomad families or Khamlia village for Gnawa music.
+FAB-4DAY-SAH,4,MER-MAR-007-Morocco-Marrakech-1.png,Merzouga to Marrakech,
+FAB-4DAY-FES,1,MAR-DAD-003-Morocco-Dades-1.png,Marrakech to Dades Valley,
+FAB-4DAY-FES,2,DAD-MER-116,Dades to Merzouga,
+FAB-4DAY-FES,3,MER-MID-102-Morocco-Midelt.png,Merzouga to Midelt,
+FAB-4DAY-FES,4,MID-FES-123,Midelt to Fes,
+FAB-5DAY-IMP,1,MAR-DAD-003-Morocco-Dades-1.png,Marrakech to Dades Valley,
+FAB-5DAY-IMP,2,DAD-MER-116,Dades to Merzouga,
+FAB-5DAY-IMP,3,MER-FES-122,Merzouga to Fes,
+FAB-5DAY-IMP,4,STAY_FES,Fes,Full day exploring the world's largest car-free medina. Tanneries and madrasas and craftsmen at work.
+FAB-5DAY-IMP,5,FES-MAR-020-Morocco-Marrakech-2.png,Fes to Marrakech,
+FAB-8DAY-MOR,1,MAR-DAD-003-Morocco-Dades-1.png,Marrakech to Dades Valley,
+FAB-8DAY-MOR,2,DAD-MER-116,Dades to Merzouga,
+FAB-8DAY-MOR,3,MER-FES-122,Merzouga to Fes,
+FAB-8DAY-MOR,4,STAY_FES,Fes,Fes medina exploration with local guide. Tanneries and souks and historic sites.
+FAB-8DAY-MOR,5,FES-CHE-118,Fes to Chefchaouen,
+FAB-8DAY-MOR,6,CHE-RAB-115,Chefchaouen to Rabat,
+FAB-8DAY-MOR,7,RAB-MAR-128,Rabat to Marrakech,
+FAB-8DAY-MOR,8,STAY_MARRAKECH,Marrakech,Morning in Marrakech. Bahia Palace and souks and Jemaa el-Fna square. End of tour.
+FAB-9DAY-GRD,1,MAR-OUA-001-Morocco-Ouarzazate-1.png,Marrakech to Ouarzazate,
+FAB-9DAY-GRD,2,OUA-MER-125,Ouarzazate to Merzouga,
+FAB-9DAY-GRD,3,STAY_MERZOUGA,Merzouga,Full desert day. Nomad visit. Khamlia village. Second desert night.
+FAB-9DAY-GRD,4,MER-FES-122,Merzouga to Fes,
+FAB-9DAY-GRD,5,STAY_FES,Fes,Full day Fes medina immersion. Tanneries and madrasas and traditional crafts.
+FAB-9DAY-GRD,6,FES-MEK-022-Morocco-Fes-3.png,Fes to Meknes,
+FAB-9DAY-GRD,7,MEK-CHE-035-Morocco-Chefchaouen.png,Meknes to Chefchaouen,
+FAB-9DAY-GRD,8,CHE-RAB-115,Chefchaouen to Rabat,
+FAB-9DAY-GRD,9,RAB-FES-127,Rabat to Fes,
+FAB-2DAY-FEZ,1,FES-MER-009-Morocco-Merzouga.png,Fes to Merzouga,
+FAB-2DAY-FEZ,2,MER-FES-122,Merzouga to Fes,
+FAB-3DAY-FEZ,1,FES-MER-009-Morocco-Merzouga.png,Fes to Merzouga,
+FAB-3DAY-FEZ,2,STAY_MERZOUGA,Merzouga,Full day desert exploration. Nomad visit. Optional 4x4. Khamlia Gnawa music.
+FAB-3DAY-FEZ,3,MER-FES-122,Merzouga to Fes,
+FAB-3DAY-FMK,1,FES-MER-009-Morocco-Merzouga.png,Fes to Merzouga,
+FAB-3DAY-FMK,2,MER-DAD-NEW01-Morocco-Dades.png,Merzouga to Dades,
+FAB-3DAY-FMK,3,DAD-MAR-NEW02-Morocco-Marrakech-8.png,Dades to Marrakech,
+FAB-4DAY-FMK,1,FES-MER-009-Morocco-Merzouga.png,Fes to Merzouga,
+FAB-4DAY-FMK,2,STAY_MERZOUGA,Merzouga,Full desert day. Nomad families. Khamlia village.
+FAB-4DAY-FMK,3,MER-DAD-NEW01-Morocco-Dades.png,Merzouga to Dades,
+FAB-4DAY-FMK,4,DAD-MAR-NEW02-Morocco-Marrakech-8.png,Dades to Marrakech,
+FAB-5DAY-FEZ,1,FES-MID-119,Fes to Midelt,
+FAB-5DAY-FEZ,2,MID-MER-101-Morocco-Merzouga.png,Midelt to Merzouga,
+FAB-5DAY-FEZ,3,STAY_MERZOUGA,Merzouga,Full desert day. Nomad visit. Sandboarding. Khamlia. Second desert night.
+FAB-5DAY-FEZ,4,MER-DAD-NEW01-Morocco-Dades.png,Merzouga to Dades,
+FAB-5DAY-FEZ,5,DAD-MAR-NEW02-Morocco-Marrakech-8.png,Dades to Marrakech,
+FAB-10DAY-AUT,1,ARRIVAL_STANDARD,Arrival in Fes,Settle into riad. Evening walk in medina.
+FAB-10DAY-AUT,2,STAY_FES,Fes,Full day Fes medina. Tanneries and madrasas and souks. Cooking class optional.
+FAB-10DAY-AUT,3,FES-MER-009-Morocco-Merzouga.png,Fes to Merzouga,
+FAB-10DAY-AUT,4,MER-DAD-NEW01-Morocco-Dades.png,Merzouga to Dades,
+FAB-10DAY-AUT,5,DAD-MAR-NEW02-Morocco-Marrakech-8.png,Dades to Marrakech,
+FAB-10DAY-AUT,6,STAY_MARRAKECH,Marrakech,Marrakech exploration. Bahia and souks and Jemaa el-Fna.
+FAB-10DAY-AUT,7,MAR-ESS-011-Morocco-Essaouira.png,Marrakech to Essaouira,
+FAB-10DAY-AUT,8,ESS-CAS-NEW10-Morocco-Essaouira.png,Essaouira to Casablanca,
+FAB-10DAY-AUT,9,CAS-FES-028-Morocco-Fes-4.png,Casablanca to Fes,
+FAB-10DAY-AUT,10,DEPARTURE_STANDARD,Departure from Fes,Final morning in Fes.
+FAB-8DAY-CAS,1,CAS-RAB-025-Morocco-Rabat.png,Casablanca to Rabat,
+FAB-8DAY-CAS,2,RAB-FES-127,Rabat to Fes,
+FAB-8DAY-CAS,3,STAY_FES,Fes,Full day Fes medina exploration.
+FAB-8DAY-CAS,4,FES-MER-009-Morocco-Merzouga.png,Fes to Merzouga,
+FAB-8DAY-CAS,5,MER-DAD-NEW01-Morocco-Dades.png,Merzouga to Dades,
+FAB-8DAY-CAS,6,DAD-OUA-117,Dades to Ouarzazate,
+FAB-8DAY-CAS,7,OUA-MAR-124,Ouarzazate to Marrakech,
+FAB-8DAY-CAS,8,MAR-CAS-013-Morocco-Casablanca.png,Marrakech to Casablanca,
+FAB-12DAY-CAS,1,CAS-RAB-025-Morocco-Rabat.png,Casablanca to Rabat,
+FAB-12DAY-CAS,2,RAB-CHE-126,Rabat to Chefchaouen,
+FAB-12DAY-CAS,3,CHE-FES-NEW05-Morocco-Fes-13.png,Chefchaouen to Fes,
+FAB-12DAY-CAS,4,STAY_FES,Fes,Full day Fes medina.
+FAB-12DAY-CAS,5,FES-MER-009-Morocco-Merzouga.png,Fes to Merzouga,
+FAB-12DAY-CAS,6,STAY_MERZOUGA,Merzouga,Full day desert. Nomads. Khamlia.
+FAB-12DAY-CAS,7,MER-DAD-NEW01-Morocco-Dades.png,Merzouga to Dades,
+FAB-12DAY-CAS,8,DAD-OUA-117,Dades to Ouarzazate,
+FAB-12DAY-CAS,9,OUA-MAR-124,Ouarzazate to Marrakech,
+FAB-12DAY-CAS,10,STAY_MARRAKECH,Marrakech,Full day Marrakech exploration.
+FAB-12DAY-CAS,11,MAR-ESS-011-Morocco-Essaouira.png,Marrakech to Essaouira,
+FAB-12DAY-CAS,12,ESS-CAS-NEW10-Morocco-Essaouira.png,Essaouira to Casablanca,
+FAB-15DAY-ULT,1,CAS-RAB-025-Morocco-Rabat.png,Casablanca to Rabat,
+FAB-15DAY-ULT,2,RAB-TAN-129,Rabat to Tangier,
+FAB-15DAY-ULT,3,TAN-CHE-032-Morocco-Chefchaouen.png,Tangier to Chefchaouen,
+FAB-15DAY-ULT,4,CHE-FES-NEW05-Morocco-Fes-13.png,Chefchaouen to Fes,
+FAB-15DAY-ULT,5,STAY_FES,Fes,Full day Fes medina.
+FAB-15DAY-ULT,6,FES-MEK-022-Morocco-Fes-3.png,Fes to Meknes,
+FAB-15DAY-ULT,7,MEK-MER-121,Meknes to Merzouga,
+FAB-15DAY-ULT,8,STAY_MERZOUGA,Merzouga,Full day desert exploration.
+FAB-15DAY-ULT,9,MER-DAD-NEW01-Morocco-Dades.png,Merzouga to Dades,
+FAB-15DAY-ULT,10,DAD-OUA-117,Dades to Ouarzazate,
+FAB-15DAY-ULT,11,OUA-MAR-124,Ouarzazate to Marrakech,
+FAB-15DAY-ULT,12,STAY_MARRAKECH,Marrakech,Full day Marrakech.
+FAB-15DAY-ULT,13,MAR-ESS-011-Morocco-Essaouira.png,Marrakech to Essaouira,
+FAB-15DAY-ULT,14,STAY_ESSAOUIRA,Essaouira,Full day Essaouira. Port and medina and beach.
+FAB-15DAY-ULT,15,ESS-CAS-NEW10-Morocco-Essaouira.png,Essaouira to Casablanca,
