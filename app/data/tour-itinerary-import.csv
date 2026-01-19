@@ -1,0 +1,101 @@
+tour_id,day_number,title,from_city,to_city,description,driving_hours,meals,accommodation,image_url,activities,difficulty
+FAB-2DAY-ZAG,1,Marrakech to Zagora,Marrakech,Zagora,"Depart Marrakech crossing the High Atlas via Tizi n'Tichka pass (2260m). Stop at Ait Benhaddou, the ancient caravan route fortress. Continue through Ouarzazate and the Draa Valley—Morocco's longest river lined with palm groves. Arrive Zagora for sunset camel trek into the dunes.",7,Dinner,Desert Camp,,Camel trek,Moderate
+FAB-2DAY-ZAG,2,Zagora to Marrakech,Zagora,Marrakech,"Wake for sunrise over the desert. After breakfast, return through the Draa Valley with stops at Berber villages. Cross back over the Atlas arriving Marrakech evening.",7,Breakfast,End of tour,,Sightseeing,Easy
+FAB-3DAY-SAH,1,Marrakech to Dades Valley,Marrakech,Dades Valley,"Cross the High Atlas via Tizi n'Tichka pass. Visit Ait Benhaddou—the UNESCO fortress from Gladiator and Game of Thrones. Continue through Ouarzazate along the Road of a Thousand Kasbahs to the dramatic Dades Valley.",5,Dinner,Dades Riad,,Sightseeing,Easy
+FAB-3DAY-SAH,2,Dades to Merzouga,Dades Valley,Merzouga,"Morning walk in Dades Gorge among finger-like rock formations. Drive through Tinghir to Todra Gorge—300m canyon walls just 10m apart. Continue to Merzouga for sunset camel trek into Erg Chebbi. Dinner and night under the stars.",5,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-3DAY-SAH,3,Merzouga to Marrakech,Merzouga,Marrakech,"Optional sunrise over the dunes. After breakfast, the long scenic drive back through Rissani, over the Atlas. Arrive Marrakech evening.",9,Breakfast,End of tour,,Sightseeing,Easy
+FAB-3DAY-FES,1,Marrakech to Dades Valley,Marrakech,Dades Valley,"Cross the High Atlas via Tizi n'Tichka. Visit Ait Benhaddou and Ouarzazate. Continue to Dades Valley for sunset.",5,Dinner,Dades Riad,,Sightseeing,Easy
+FAB-3DAY-FES,2,Dades to Merzouga,Dades Valley,Merzouga,"Dades Gorge morning walk. Todra Gorge. Arrive Merzouga for sunset camel trek and desert camp.",5,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-3DAY-FES,3,Merzouga to Fes,Merzouga,Fes,"Sunrise over the dunes. Drive north through the Ziz Valley—green palms through red canyon walls. Cedar forests with Barbary macaques. Ifrane. Arrive Fes evening.",7,Breakfast,End of tour,,Sightseeing,Easy
+FAB-4DAY-SAH,1,Marrakech to Dades Valley,Marrakech,Dades Valley,"Atlas crossing via Tizi n'Tichka. Ait Benhaddou. Ouarzazate. Dades Valley sunset.",5,Dinner,Dades Riad,,Sightseeing,Easy
+FAB-4DAY-SAH,2,Dades to Merzouga,Dades Valley,Merzouga,"Dades Gorge walk. Todra Gorge. Arrive Merzouga. Sunset camel trek. Desert camp.",5,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-4DAY-SAH,3,Merzouga,Merzouga,Merzouga,"Full day exploring the desert. Options: 4x4 to nomad families, sandboarding, Khamlia village for Gnawa music. Second night desert area.",2,Breakfast|Dinner,Desert Hotel,,Desert exploration,Easy
+FAB-4DAY-SAH,4,Merzouga to Marrakech,Merzouga,Marrakech,"Sunrise. Scenic return through Todra Gorge and over the Atlas. Arrive Marrakech evening.",9,Breakfast,End of tour,,Sightseeing,Easy
+FAB-4DAY-FES,1,Marrakech to Dades,Marrakech,Dades Valley,"Atlas crossing. Ait Benhaddou. Ouarzazate. Dades Valley.",5,Dinner,Dades Riad,,Sightseeing,Easy
+FAB-4DAY-FES,2,Dades to Merzouga,Dades Valley,Merzouga,"Dades Gorge. Todra Gorge. Merzouga. Camel trek. Desert camp.",5,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-4DAY-FES,3,Merzouga to Midelt,Merzouga,Midelt,"Morning desert. Ziz Valley. Fossils at Erfoud. Midelt at foot of Middle Atlas.",5,Breakfast|Dinner,Midelt Hotel,,Sightseeing,Easy
+FAB-4DAY-FES,4,Midelt to Fes,Midelt,Fes,"Cedar forests. Barbary macaques at Azrou. Ifrane. Arrive Fes.",4,Breakfast,End of tour,,Wildlife,Easy
+FAB-5DAY-IMP,1,Marrakech to Dades,Marrakech,Dades Valley,"Atlas crossing. Ait Benhaddou. Dades Valley overnight.",5,Dinner,Dades Riad,,Sightseeing,Easy
+FAB-5DAY-IMP,2,Dades to Merzouga,Dades Valley,Merzouga,"Todra Gorge. Sahara sunset. Desert camp.",5,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-5DAY-IMP,3,Merzouga to Fes,Merzouga,Fes,"Ziz Valley. Cedar forests. Arrive Fes evening.",7,Breakfast,Fes Riad,,Sightseeing,Easy
+FAB-5DAY-IMP,4,Fes,Fes,Fes,"Full day in the world's largest car-free medina. Tanneries, madrasas, craftsmen. Optional cooking class.",0,Breakfast,Fes Riad,,Medina exploration,Easy
+FAB-5DAY-IMP,5,Fes to Marrakech,Fes,Marrakech,"Drive across Middle Atlas via Beni Mellal. Arrive Marrakech evening.",6,Breakfast,End of tour,,Sightseeing,Easy
+FAB-8DAY-MOR,1,Marrakech to Dades,Marrakech,Dades Valley,"Atlas crossing. Ait Benhaddou. Dades Valley.",5,Dinner,Dades Riad,,Sightseeing,Easy
+FAB-8DAY-MOR,2,Dades to Merzouga,Dades Valley,Merzouga,"Todra Gorge. Merzouga. Desert camp.",5,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-8DAY-MOR,3,Merzouga to Fes,Merzouga,Fes,"Ziz Valley. Cedar forests. Fes.",7,Breakfast,Fes Riad,,Sightseeing,Easy
+FAB-8DAY-MOR,4,Fes,Fes,Fes,"Fes medina with local guide. Tanneries, souks, historic sites.",0,Breakfast,Fes Riad,,Medina exploration,Easy
+FAB-8DAY-MOR,5,Fes to Chefchaouen,Fes,Chefchaouen,"Through the Rif Mountains to the blue city.",4,Breakfast,Chefchaouen Riad,,Sightseeing,Easy
+FAB-8DAY-MOR,6,Chefchaouen to Rabat,Chefchaouen,Rabat,"Morning wandering blue streets. Afternoon drive to Rabat.",4,Breakfast,Rabat Hotel,,Sightseeing,Easy
+FAB-8DAY-MOR,7,Rabat to Marrakech,Rabat,Marrakech,"Hassan Tower. Kasbah Udayas. Optional Casablanca stop for Hassan II Mosque. Continue to Marrakech.",5,Breakfast,Marrakech Riad,,Sightseeing,Easy
+FAB-8DAY-MOR,8,Marrakech,Marrakech,Marrakech,"Bahia Palace. Souks. Jemaa el-Fna square. End of tour.",0,Breakfast,End of tour,,Medina exploration,Easy
+FAB-9DAY-GRD,1,Marrakech to Ouarzazate,Marrakech,Ouarzazate,"Tizi n'Tichka pass. Ait Benhaddou guided tour. Ouarzazate overnight.",4,Dinner,Ouarzazate Hotel,,Sightseeing,Easy
+FAB-9DAY-GRD,2,Ouarzazate to Merzouga,Ouarzazate,Merzouga,"Dades Valley. Todra Gorge. Arrive Merzouga for sunset camel trek.",6,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-9DAY-GRD,3,Merzouga,Merzouga,Merzouga,"Full desert day. Nomad visit. Khamlia village. Second desert night.",2,Breakfast|Dinner,Desert Hotel,,Desert exploration,Easy
+FAB-9DAY-GRD,4,Merzouga to Fes,Merzouga,Fes,"Ziz Valley. Ifrane. Cedar forests. Fes.",7,Breakfast,Fes Riad,,Sightseeing,Easy
+FAB-9DAY-GRD,5,Fes,Fes,Fes,"Full day Fes medina immersion. Tanneries, madrasas, traditional crafts.",0,Breakfast,Fes Riad,,Medina exploration,Easy
+FAB-9DAY-GRD,6,Fes to Meknes,Fes,Meknes,"Volubilis Roman ruins. Moulay Idriss holy town. Meknes exploration.",2,Breakfast,Meknes Hotel,,Historical,Easy
+FAB-9DAY-GRD,7,Meknes to Chefchaouen,Meknes,Chefchaouen,"Through the Rif Mountains to the blue pearl.",4,Breakfast,Chefchaouen Riad,,Sightseeing,Easy
+FAB-9DAY-GRD,8,Chefchaouen to Rabat,Chefchaouen,Rabat,"Morning in blue streets. Rabat Hassan Tower, Kasbah Udayas.",4,Breakfast,Rabat Hotel,,Sightseeing,Easy
+FAB-9DAY-GRD,9,Rabat to Fes,Rabat,Fes,"Optional Casablanca detour for Hassan II Mosque. Return to Fes.",3,Breakfast,End of tour,,Sightseeing,Easy
+FAB-2DAY-FEZ,1,Fes to Merzouga,Fes,Merzouga,"Drive south through Ifrane, cedar forests with monkeys, dramatic Ziz Valley. Arrive Merzouga for sunset camel trek. Desert camp.",7,Dinner,Desert Camp,,Camel trek,Moderate
+FAB-2DAY-FEZ,2,Merzouga to Fes,Merzouga,Fes,"Sunrise over dunes. Return north via Erfoud and scenic mountain route. Fes evening.",7,Breakfast,End of tour,,Sightseeing,Easy
+FAB-3DAY-FEZ,1,Fes to Merzouga,Fes,Merzouga,"Ifrane. Cedar forests. Ziz Valley. Merzouga. Camel trek. Desert camp.",7,Dinner,Desert Camp,,Camel trek,Moderate
+FAB-3DAY-FEZ,2,Merzouga,Merzouga,Merzouga,"Full day desert exploration. Nomad visit. Optional 4x4. Khamlia Gnawa music. Desert hotel.",2,Breakfast|Dinner,Desert Hotel,,Desert exploration,Easy
+FAB-3DAY-FEZ,3,Merzouga to Fes,Merzouga,Fes,"Return via Erfoud fossils and Ziz Valley. Fes evening.",7,Breakfast,End of tour,,Sightseeing,Easy
+FAB-3DAY-FMK,1,Fes to Merzouga,Fes,Merzouga,"Ifrane. Cedar forests. Ziz Valley. Merzouga. Desert camp.",7,Dinner,Desert Camp,,Camel trek,Moderate
+FAB-3DAY-FMK,2,Merzouga to Dades,Merzouga,Dades Valley,"Morning desert. Todra Gorge. Dades Valley overnight.",5,Breakfast|Dinner,Dades Riad,,Sightseeing,Easy
+FAB-3DAY-FMK,3,Dades to Marrakech,Dades Valley,Marrakech,"Rose Valley. Ait Benhaddou. Atlas crossing. Marrakech.",5,Breakfast,End of tour,,Sightseeing,Easy
+FAB-4DAY-FMK,1,Fes to Merzouga,Fes,Merzouga,"Ifrane. Azrou monkeys. Ziz Valley. Desert camp.",7,Dinner,Desert Camp,,Camel trek,Moderate
+FAB-4DAY-FMK,2,Merzouga,Merzouga,Merzouga,"Full desert day. Nomad families. Khamlia village. Desert hotel.",2,Breakfast|Dinner,Desert Hotel,,Desert exploration,Easy
+FAB-4DAY-FMK,3,Merzouga to Dades,Merzouga,Dades Valley,"Todra Gorge walk. Tinghir. Dades Valley kasbahs.",5,Breakfast|Dinner,Dades Riad,,Hiking,Moderate
+FAB-4DAY-FMK,4,Dades to Marrakech,Dades Valley,Marrakech,"Roses of Kelaa M'Gouna. Ait Benhaddou. Marrakech.",5,Breakfast,End of tour,,Sightseeing,Easy
+FAB-5DAY-FEZ,1,Fes to Midelt,Fes,Midelt,"Through Middle Atlas. Ifrane. Cedar forests. Barbary macaques. Midelt.",4,Dinner,Midelt Hotel,,Wildlife,Easy
+FAB-5DAY-FEZ,2,Midelt to Merzouga,Midelt,Merzouga,"Ziz Valley panorama. Erfoud fossils. Merzouga. Camel trek. Desert camp.",5,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-5DAY-FEZ,3,Merzouga,Merzouga,Merzouga,"Full desert day. Nomad visit. Sandboarding. Khamlia. Second desert night.",2,Breakfast|Dinner,Desert Hotel,,Desert exploration,Easy
+FAB-5DAY-FEZ,4,Merzouga to Dades,Merzouga,Dades Valley,"Todra Gorge. Tinghir. Dades Valley.",5,Breakfast|Dinner,Dades Riad,,Hiking,Moderate
+FAB-5DAY-FEZ,5,Dades to Marrakech,Dades Valley,Marrakech,"Skoura palmeraie. Ouarzazate. Ait Benhaddou. Marrakech.",5,Breakfast,End of tour,,Sightseeing,Easy
+FAB-10DAY-AUT,1,Fes,Fes,Fes,"Arrival. Settle into riad. Evening walk in medina.",0,Dinner,Fes Riad,,Arrival,Easy
+FAB-10DAY-AUT,2,Fes,Fes,Fes,"Full day Fes medina. Tanneries, madrasas, souks. Cooking class optional.",0,Breakfast,Fes Riad,,Medina exploration,Easy
+FAB-10DAY-AUT,3,Fes to Merzouga,Fes,Merzouga,"Ifrane. Cedar forests. Ziz Valley. Desert camp.",7,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-10DAY-AUT,4,Merzouga to Dades,Merzouga,Dades Valley,"Morning desert. Todra Gorge. Dades Valley.",5,Breakfast|Dinner,Dades Riad,,Sightseeing,Easy
+FAB-10DAY-AUT,5,Dades to Marrakech,Dades Valley,Marrakech,"Ait Benhaddou. Atlas crossing. Marrakech.",5,Breakfast,Marrakech Riad,,Sightseeing,Easy
+FAB-10DAY-AUT,6,Marrakech,Marrakech,Marrakech,"Marrakech exploration. Bahia, souks, Jemaa el-Fna.",0,Breakfast,Marrakech Riad,,Medina exploration,Easy
+FAB-10DAY-AUT,7,Marrakech to Essaouira,Marrakech,Essaouira,"Atlantic coast. Argan cooperatives. Essaouira.",3,Breakfast,Essaouira Riad,,Sightseeing,Easy
+FAB-10DAY-AUT,8,Essaouira to Casablanca,Essaouira,Casablanca,"Morning in port town. Drive to Casablanca.",5,Breakfast,Casablanca Hotel,,Sightseeing,Easy
+FAB-10DAY-AUT,9,Casablanca to Rabat to Fes,Casablanca,Fes,"Hassan II Mosque. Rabat Hassan Tower. Return to Fes.",4,Breakfast,Fes Riad,,Historical,Easy
+FAB-10DAY-AUT,10,Fes,Fes,Fes,"Final morning in Fes. Departure.",0,Breakfast,End of tour,,Departure,Easy
+FAB-8DAY-CAS,1,Casablanca to Rabat,Casablanca,Rabat,"Hassan II Mosque. Drive to Rabat. Hassan Tower. Kasbah Udayas.",2,Dinner,Rabat Hotel,,Historical,Easy
+FAB-8DAY-CAS,2,Rabat to Fes,Rabat,Fes,"Volubilis ruins. Meknes. Arrive Fes.",4,Breakfast,Fes Riad,,Historical,Easy
+FAB-8DAY-CAS,3,Fes,Fes,Fes,"Full day Fes medina exploration.",0,Breakfast,Fes Riad,,Medina exploration,Easy
+FAB-8DAY-CAS,4,Fes to Merzouga,Fes,Merzouga,"Ifrane. Cedar forests. Ziz Valley. Desert camp.",7,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-8DAY-CAS,5,Merzouga to Dades,Merzouga,Dades Valley,"Morning desert. Todra Gorge. Dades Valley.",5,Breakfast|Dinner,Dades Riad,,Sightseeing,Easy
+FAB-8DAY-CAS,6,Dades to Ouarzazate,Dades Valley,Ouarzazate,"Dades Gorge. Skoura. Ouarzazate kasbahs.",3,Breakfast,Ouarzazate Hotel,,Sightseeing,Easy
+FAB-8DAY-CAS,7,Ouarzazate to Marrakech,Ouarzazate,Marrakech,"Ait Benhaddou. Atlas crossing. Marrakech.",4,Breakfast,Marrakech Riad,,Sightseeing,Easy
+FAB-8DAY-CAS,8,Marrakech to Casablanca,Marrakech,Casablanca,"Morning Marrakech. Return to Casablanca.",3,Breakfast,End of tour,,Departure,Easy
+FAB-12DAY-CAS,1,Casablanca to Rabat,Casablanca,Rabat,"Hassan II Mosque. Rabat exploration.",2,Dinner,Rabat Hotel,,Historical,Easy
+FAB-12DAY-CAS,2,Rabat to Chefchaouen,Rabat,Chefchaouen,"Drive north to the blue city in the Rif.",4,Breakfast,Chefchaouen Riad,,Sightseeing,Easy
+FAB-12DAY-CAS,3,Chefchaouen to Fes,Chefchaouen,Fes,"Morning in blue streets. Afternoon to Fes.",4,Breakfast,Fes Riad,,Sightseeing,Easy
+FAB-12DAY-CAS,4,Fes,Fes,Fes,"Full day Fes medina.",0,Breakfast,Fes Riad,,Medina exploration,Easy
+FAB-12DAY-CAS,5,Fes to Merzouga,Fes,Merzouga,"Ifrane. Cedar forests. Ziz Valley. Desert camp.",7,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-12DAY-CAS,6,Merzouga,Merzouga,Merzouga,"Full day desert. Nomads. Khamlia. Desert hotel.",2,Breakfast|Dinner,Desert Hotel,,Desert exploration,Easy
+FAB-12DAY-CAS,7,Merzouga to Dades,Merzouga,Dades Valley,"Todra Gorge. Dades Valley.",5,Breakfast|Dinner,Dades Riad,,Hiking,Moderate
+FAB-12DAY-CAS,8,Dades to Ouarzazate,Dades Valley,Ouarzazate,"Rose Valley. Skoura. Ouarzazate.",4,Breakfast,Ouarzazate Hotel,,Sightseeing,Easy
+FAB-12DAY-CAS,9,Ouarzazate to Marrakech,Ouarzazate,Marrakech,"Ait Benhaddou. Atlas crossing. Marrakech.",4,Breakfast,Marrakech Riad,,Sightseeing,Easy
+FAB-12DAY-CAS,10,Marrakech,Marrakech,Marrakech,"Full day Marrakech exploration.",0,Breakfast,Marrakech Riad,,Medina exploration,Easy
+FAB-12DAY-CAS,11,Marrakech to Essaouira,Marrakech,Essaouira,"Atlantic coast. Essaouira.",3,Breakfast,Essaouira Riad,,Sightseeing,Easy
+FAB-12DAY-CAS,12,Essaouira to Casablanca,Essaouira,Casablanca,"Morning Essaouira. Return to Casablanca.",5,Breakfast,End of tour,,Departure,Easy
+FAB-15DAY-ULT,1,Casablanca to Rabat,Casablanca,Rabat,"Hassan II Mosque. Rabat.",2,Dinner,Rabat Hotel,,Historical,Easy
+FAB-15DAY-ULT,2,Rabat to Tangier,Rabat,Tangier,"North to Tangier. Medina. Cap Spartel.",4,Breakfast,Tangier Hotel,,Sightseeing,Easy
+FAB-15DAY-ULT,3,Tangier to Chefchaouen,Tangier,Chefchaouen,"Through the Rif to blue city.",3,Breakfast,Chefchaouen Riad,,Sightseeing,Easy
+FAB-15DAY-ULT,4,Chefchaouen to Fes,Chefchaouen,Fes,"Morning blue streets. Fes.",4,Breakfast,Fes Riad,,Sightseeing,Easy
+FAB-15DAY-ULT,5,Fes,Fes,Fes,"Full day Fes medina.",0,Breakfast,Fes Riad,,Medina exploration,Easy
+FAB-15DAY-ULT,6,Fes to Meknes,Fes,Meknes,"Volubilis. Moulay Idriss. Meknes.",2,Breakfast,Meknes Hotel,,Historical,Easy
+FAB-15DAY-ULT,7,Meknes to Merzouga,Meknes,Merzouga,"Middle Atlas. Ziz Valley. Desert camp.",7,Breakfast|Dinner,Desert Camp,,Camel trek,Moderate
+FAB-15DAY-ULT,8,Merzouga,Merzouga,Merzouga,"Full day desert exploration. Desert hotel.",2,Breakfast|Dinner,Desert Hotel,,Desert exploration,Easy
+FAB-15DAY-ULT,9,Merzouga to Dades,Merzouga,Dades Valley,"Todra Gorge. Dades Valley.",5,Breakfast|Dinner,Dades Riad,,Hiking,Moderate
+FAB-15DAY-ULT,10,Dades to Ouarzazate,Dades Valley,Ouarzazate,"Skoura. Ouarzazate film studios.",4,Breakfast,Ouarzazate Hotel,,Sightseeing,Easy
+FAB-15DAY-ULT,11,Ouarzazate to Marrakech,Ouarzazate,Marrakech,"Ait Benhaddou. Atlas crossing.",4,Breakfast,Marrakech Riad,,Sightseeing,Easy
+FAB-15DAY-ULT,12,Marrakech,Marrakech,Marrakech,"Full day Marrakech.",0,Breakfast,Marrakech Riad,,Medina exploration,Easy
+FAB-15DAY-ULT,13,Marrakech to Essaouira,Marrakech,Essaouira,"Atlantic coast drive.",3,Breakfast,Essaouira Riad,,Sightseeing,Easy
+FAB-15DAY-ULT,14,Essaouira,Essaouira,Essaouira,"Full day Essaouira. Port. Medina. Beach.",0,Breakfast,Essaouira Riad,,Relaxation,Easy
+FAB-15DAY-ULT,15,Essaouira to Casablanca,Essaouira,Casablanca,"Return to Casablanca via El Jadida option.",5,Breakfast,End of tour,,Departure,Easy

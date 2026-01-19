@@ -1,0 +1,604 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════════════════
+   FAB MOROCCO DESIGN SYSTEM
+   Magazine-style, vibrant, conversion-focused
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Google Fonts - Nanum Myeongjo for body, Cormorant Garamond for editorial headings */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Nanum+Myeongjo:wght@400;700&display=swap');
+
+/* ═══════════════════════════════════════════════════════════════
+   CSS VARIABLES
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Typography - Editorial magazine feel */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Nanum Myeongjo', Georgia, serif;
+
+  /* Colors - Warm, feminine palette */
+  --background: 40 30% 96%;              /* Warm off-white #F7F5F0 */
+  --foreground: 30 10% 20%;              /* Warm charcoal, not pure black */
+
+  --card: 0 0% 100%;
+  --card-foreground: 30 10% 20%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 30 10% 20%;
+
+  /* Primary - Red for CTAs */
+  --primary: 0 70% 50%;                  /* True red */
+  --primary-foreground: 0 0% 100%;
+
+  /* Secondary - Soft sand */
+  --secondary: 35 25% 90%;
+  --secondary-foreground: 30 10% 20%;
+
+  --muted: 35 20% 88%;
+  --muted-foreground: 30 10% 35%;
+
+  /* Accent - Muted rose gold */
+  --accent: 15 35% 55%;                  /* Rose terracotta #B8856E */
+  --accent-foreground: 40 30% 96%;
+
+  /* Success - For availability, confirmations */
+  --success: 142 40% 45%;
+  --success-foreground: 0 0% 100%;
+
+  /* Urgency - Softer coral */
+  --urgency: 10 55% 50%;
+  --urgency-foreground: 0 0% 100%;
+
+  --destructive: 10 55% 50%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 35 15% 85%;
+  --input: 35 15% 85%;
+  --ring: 18 45% 42%;
+
+  --radius: 0.25rem;
+
+  /* Footer - Warm dark, not pure black */
+  --footer-background: 30 15% 12%;
+  --footer-foreground: 35 15% 90%;
+
+  /* Sand fallback for images */
+  --sand: 40 25% 90%;
+
+  /* WhatsApp green */
+  --whatsapp: 142 70% 45%;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   BASE STYLES
+   ═══════════════════════════════════════════════════════════════ */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TYPOGRAPHY
+   ═══════════════════════════════════════════════════════════════ */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: hsl(var(--foreground));
+}
+
+/* Spaced letter headings for magazine style */
+h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  line-height: 1.1;
+  letter-spacing: 0.08em;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+/* Spaced text utility */
+.text-spaced {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.text-spaced-tight {
+  letter-spacing: 0.1em;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: hsl(var(--foreground));
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Font display utility */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SELECTION
+   ═══════════════════════════════════════════════════════════════ */
+
+::selection {
+  background: hsl(var(--foreground));
+  color: hsl(var(--background));
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SCROLLBAR (Minimal)
+   ═══════════════════════════════════════════════════════════════ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground));
+}
+
+/* Hide scrollbar utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   FORM ELEMENTS
+   ═══════════════════════════════════════════════════════════════ */
+
+input, textarea, select {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: hsl(var(--foreground));
+}
+
+.form-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: hsl(var(--foreground));
+  margin-bottom: 0.5rem;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   BUTTONS
+   ═══════════════════════════════════════════════════════════════ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 1.75rem;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: hsl(var(--foreground));
+  border: 1px solid hsl(var(--border));
+}
+
+.btn-secondary:hover {
+  background: hsl(var(--muted));
+  border-color: hsl(var(--foreground) / 0.3);
+}
+
+.btn-gold {
+  background: hsl(var(--accent));
+  color: hsl(0 0% 0%);
+  font-weight: 600;
+}
+
+.btn-gold:hover {
+  background: hsl(42 60% 50%);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   BADGES
+   ═══════════════════════════════════════════════════════════════ */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.badge-primary {
+  background: hsl(var(--foreground));
+  color: hsl(var(--background));
+}
+
+.badge-gold {
+  background: hsl(var(--accent));
+  color: hsl(0 0% 0%);
+}
+
+.badge-urgency {
+  background: hsl(var(--urgency));
+  color: white;
+}
+
+.badge-success {
+  background: hsl(var(--success));
+  color: white;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MOBILE OPTIMIZATIONS
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Touch-friendly tap targets (minimum 44x44px per Apple HIG) */
+.tap-target {
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure links in nav have adequate touch area */
+@media (max-width: 768px) {
+  nav a, nav button {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Safe areas for notched phones (iPhone X+, etc.) */
+html {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+           env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+/* Fixed header respects safe area */
+header.fixed {
+  top: env(safe-area-inset-top);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* Footer respects bottom safe area */
+footer {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Prevent iOS zoom on input focus (must be 16px+) */
+input, select, textarea {
+  font-size: 16px !important;
+}
+
+@media (min-width: 768px) {
+  input, select, textarea {
+    font-size: 1rem !important;
+  }
+}
+
+/* Smooth scrolling but respect reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Disable hover effects on touch devices */
+@media (hover: none) {
+  .hover\:scale-105:hover {
+    transform: none;
+  }
+}
+
+/* Better touch feedback */
+@media (hover: none) {
+  a:active, button:active {
+    opacity: 0.7;
+  }
+}
+
+/* Prevent text selection on UI elements */
+nav, button, .tap-target {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   UTILITIES
+   ═══════════════════════════════════════════════════════════════ */
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Sand background for missing images */
+.bg-sand {
+  background-color: hsl(var(--sand));
+}
+
+/* Price display */
+.price {
+  font-family: var(--font-body);
+  font-weight: 700;
+  color: hsl(var(--foreground));
+}
+
+.price-original {
+  text-decoration: line-through;
+  color: hsl(var(--muted-foreground));
+  font-weight: 400;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ANIMATIONS
+   ═══════════════════════════════════════════════════════════════ */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-pulse-soft {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.animate-bounce-soft {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.animation-delay-100 { animation-delay: 0.1s; }
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-300 { animation-delay: 0.3s; }
+
+/* ═══════════════════════════════════════════════════════════════
+   LINE CLAMP (for mobile text overflow)
+   ═══════════════════════════════════════════════════════════════ */
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   FOCUS STATES (accessibility)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Visible focus for keyboard navigation */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid hsl(var(--foreground));
+  outline-offset: 2px;
+}
+
+/* Remove default focus outline (we handle it above) */
+a:focus,
+button:focus {
+  outline: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   WHATSAPP BUTTON
+   ═══════════════════════════════════════════════════════════════ */
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+
+.whatsapp-float svg {
+  width: 32px;
+  height: 32px;
+  fill: white;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 80px; /* Above mobile booking bar */
+    right: 16px;
+    width: 56px;
+    height: 56px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MOBILE BOOKING BAR
+   ═══════════════════════════════════════════════════════════════ */
+
+.mobile-booking-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: white;
+  border-top: 1px solid hsl(var(--border));
+  padding: 12px 16px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 769px) {
+  .mobile-booking-bar {
+    display: none;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MAGAZINE LAYOUT UTILITIES
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Editorial section labels */
+.section-label {
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+}
+
+/* Full bleed sections */
+.full-bleed {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* Aspect ratios for magazine-style images */
+.aspect-magazine {
+  aspect-ratio: 3/4;
+}
+
+.aspect-wide {
+  aspect-ratio: 16/9;
+}
+
+.aspect-editorial {
+  aspect-ratio: 4/5;
+}
