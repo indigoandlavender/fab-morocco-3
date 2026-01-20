@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, Star, Check, Phone, MessageCircle, ChevronDown, Heart } from "lucide-react";
+import { Search, Star, Check, ChevronDown } from "lucide-react";
 
 // Tour type definition
 interface Tour {
@@ -469,7 +469,7 @@ export default function ToursPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center mx-auto mb-4 font-serif text-xl">
+              <div className="w-12 h-12 bg-[#2C2925] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-serif text-xl">
                 1
               </div>
               <h3 className="font-medium mb-2">Pick Your Tour</h3>
@@ -478,7 +478,7 @@ export default function ToursPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center mx-auto mb-4 font-serif text-xl">
+              <div className="w-12 h-12 bg-[#2C2925] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-serif text-xl">
                 2
               </div>
               <h3 className="font-medium mb-2">Book or Request Changes</h3>
@@ -487,7 +487,7 @@ export default function ToursPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center mx-auto mb-4 font-serif text-xl">
+              <div className="w-12 h-12 bg-[#2C2925] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-serif text-xl">
                 3
               </div>
               <h3 className="font-medium mb-2">Pay & You're Booked</h3>
@@ -519,8 +519,11 @@ export default function ToursPage() {
         <div className="container mx-auto px-6 lg:px-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center md:text-left">
-              <div className="w-10 h-10 bg-foreground/5 rounded-full flex items-center justify-center mx-auto md:mx-0 mb-4">
-                <Check className="w-5 h-5 text-green-600" />
+              <div className="mb-4 mx-auto md:mx-0 w-8 h-8">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-foreground/40">
+                  <path d="M12 2v20M2 12h20" strokeLinecap="round"/>
+                  <circle cx="12" cy="12" r="10"/>
+                </svg>
               </div>
               <h3 className="font-medium mb-2">Fair, Transparent Pricing</h3>
               <p className="text-sm text-foreground/60">
@@ -528,8 +531,10 @@ export default function ToursPage() {
               </p>
             </div>
             <div className="text-center md:text-left">
-              <div className="w-10 h-10 bg-foreground/5 rounded-full flex items-center justify-center mx-auto md:mx-0 mb-4">
-                <MessageCircle className="w-5 h-5 text-foreground/60" />
+              <div className="mb-4 mx-auto md:mx-0 w-8 h-8">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-foreground/40">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </div>
               <h3 className="font-medium mb-2">Clear Communication</h3>
               <p className="text-sm text-foreground/60">
@@ -537,8 +542,11 @@ export default function ToursPage() {
               </p>
             </div>
             <div className="text-center md:text-left">
-              <div className="w-10 h-10 bg-foreground/5 rounded-full flex items-center justify-center mx-auto md:mx-0 mb-4">
-                <Star className="w-5 h-5 text-amber-500" />
+              <div className="mb-4 mx-auto md:mx-0 w-8 h-8">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-foreground/40">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </div>
               <h3 className="font-medium mb-2">Organized & On Time</h3>
               <p className="text-sm text-foreground/60">
@@ -546,8 +554,10 @@ export default function ToursPage() {
               </p>
             </div>
             <div className="text-center md:text-left">
-              <div className="w-10 h-10 bg-foreground/5 rounded-full flex items-center justify-center mx-auto md:mx-0 mb-4">
-                <Phone className="w-5 h-5 text-foreground/60" />
+              <div className="mb-4 mx-auto md:mx-0 w-8 h-8">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8 text-foreground/40">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </div>
               <h3 className="font-medium mb-2">24/7 Support</h3>
               <p className="text-sm text-foreground/60">
@@ -562,8 +572,10 @@ export default function ToursPage() {
       <section className="py-12 md:py-16 bg-sand">
         <div className="container mx-auto px-6 lg:px-16">
           <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            <div className="w-16 h-16 bg-foreground/10 rounded-full flex items-center justify-center flex-shrink-0">
-              <Heart className="w-7 h-7 text-foreground/60" />
+            <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-10 h-10 text-foreground/40">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <div className="text-center md:text-left">
               <h3 className="font-medium mb-2">Supporting the children of the Sahara</h3>
